@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>learning basic css</title>
+    <link rel="stylesheet" href="blog.css">
+<style>
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    h1{ background-color: bisque;
+    color: darkgreen;
+    }
+    table{
+        border-collapse: collapse;
+    }
+   td,th{
+    border: 1px solid black;
+    padding: 5px 10px;
+   }
+  
+
+</style>
 </head>
 <body>
+    <header>
+         <nav>
+             <ul>
+<li><a href="home.html">home</a></li>
+<li><a href="blog.htm">blog</a></li>
+<li><a href="about.html">abaout</a></li>
+            </ul>
+            <h1>Mohammad saleh</h1>
+</nav>
+    </header>
+    <main>
+<form>
+    <label for="Name"> Your Name:
+        <input type="Name" placeholder="Your Name ">
+    </label>
+    <label for="Mail"> Your Email:
+        <input type="Mail" placeholder=" example@example.com">
+    </label>
+    <fieldset>
+        <legend>
+            Pick a Pitha 
+        </legend>
+        <label for="chitoy"> <input type="radio" name="pitha" id="patishapta"> patishapta
+        </label>
+        <label for="kuli"> <input type="radio" name="pitha" id="Kuli"> kuli
+        </label>
+        <label for="puri"><input type="radio" name="pitha" id="puri">puri
+        </label>
+        <label for="vapa">
+            <input type="radio" name="pitha" id="vapa"> vapa
+        </label>
+    </fieldset>
+    <fieldset>
+            <legend>
+                pick one or more vorta 
+            </legend>
+            <label for="vorta"><input type="checkbox" name="vorta" id="sorisha"> sorisha</label>
+            <label for="vorta"><input type="checkbox" name="vorta" id="shutki"> shutki</label>
+        </fieldset>
+
+</form>
+    </main>
+    <footer>
+        <p><small> &copy; 2029.All Rights Reserved</small></p>
+
+    </footer>
     <H3 style="color: brown">learning basic css</H3>
     <h1 style="background-color: blueviolet;">ami color dite chai lal</h1>
 <H2 style="background-color: blue;">background color dimu</H2>
@@ -17,6 +82,41 @@
     <li>extarnal</li>
 
                 </ul>
+                <table>
+                    <caption>salary sheet</caption>
+                    <thead>
+                        <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Selary</th>
+                    </tr>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    1   
+                                </td>
+                            <td>ami</td>
+                            <td>acl</td>
+                            <td>SR2500</td>
+                        
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>tumi</td>
+                                <td>it</td>
+                                <td>SR2000</td>
+
+                            </tr>
+                            <tr>
+<td>3</td>
+<td>imran</td>
+<td>dgtal</td>
+<td>SR1500</td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
 
 </body>
 </html>
